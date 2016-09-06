@@ -43,9 +43,9 @@ int main (){
 // get the screen size.
    int length;
    int width;
-   printf("Please enter the length of screen\n");
+   printf("Please enter the length of screen(an integer)\n");
    scanf("%d", &length );
-   printf("Please enter the width of screen\n");
+   printf("Please enter the width of screen(an interger)\n");
    scanf("%d", &width );
 // initialize a 2d array to store the position of the cursor.
    int cursor[width][length+1];
@@ -166,7 +166,7 @@ while(1){
    printf("\n");
    }
 
-   printf("%d,%d",y,x);
+   printf("Cursor Position: %d,%d",y,x);
 	for (int n = 0; n < 18-width; n++){
 	printf( "\n" );}
    }
